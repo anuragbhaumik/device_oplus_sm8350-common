@@ -332,8 +332,8 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-aosp \
-    $(LOCAL_PATH)/overlay-aosp_oneplus
+    $(LOCAL_PATH)/overlay-derp \
+    $(LOCAL_PATH)/overlay-derp_oneplus
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
