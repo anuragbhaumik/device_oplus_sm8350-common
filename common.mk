@@ -333,11 +333,11 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-derp
 
 ifeq ($(PRODUCT_BRAND),OnePlus)
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage_oneplus
+    $(LOCAL_PATH)/overlay-derp_oneplus
 endif
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
